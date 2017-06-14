@@ -1,0 +1,15 @@
+{% extends 'layout.html' %} {% block body %}
+
+<div class="ui column">
+
+    <div class="sixteen wide column">
+        <form method="POST" action="" class="ui form">
+            <div class="field">
+                <label>Fullname</label> {{ render_field(form.name)}}
+            </div>
+        </form>
+    </div>
+
+</div>
+
+{% endblock %}
